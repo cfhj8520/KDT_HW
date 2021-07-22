@@ -5,7 +5,7 @@ body {
 .header {
     width: 100%;
     height: auto;
-    background: yellowgreen;
+    border-bottom: 1px solid lightgray;
 }
 .container {
     width: 980px;
