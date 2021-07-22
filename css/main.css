@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: auto;
+    background: yellowgreen;
+}
+.container {
+    width: 980px;
+}
+.container-left {
+
+}
+.logo {
+    float: left;
+}
+.logo img{
+    display: block;
+}
+.menu {
+    float: left;
+}
+.menu-item{
+    float: left;
+    padding: 8px 10px;
+    margin-right: 10px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
