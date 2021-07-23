@@ -8,10 +8,17 @@ body {
     border-bottom: 1px solid lightgray;
 }
 .container {
-    width: 980px;
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
 }
 .container-left {
-
+  float: left;
+  margin: 10px 30px;
+}
+.container-right {
+  float: right;
+  margin: 10px 30px;
 }
 .logo {
     float: left;
