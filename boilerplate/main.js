@@ -29,15 +29,15 @@ alert(msg);
 // 아래에 getItemByAmount 함수를 작성하세요.
 
 function getItemByAmount(data, amount){
-    if(isNaN(amount)||amount<500){
+    if(isNaN(amount)||amount<500){      //유효한 숫자가 아니거나 500보다 작으면 null을 리턴
         return null;
     }
 
-    const tmp={name:'default',price : 0};
+    const tmp={name:'default',price : 0};   //0으로 초기화 했기 때문에 최소금액의 물건보다 적은 금액이 입력되면 예외처리 필요
 
-    for (let item_price of data){
-//        console.log(`${item_price['name']} : ${item_price['price']}`)
-        if((item_price['price'] <= amount) && (tmp['price'] <= item_price['price'])){
+    for (let item_price of data){   //상품 목록 탐색
+//        console.log(`${item_price['name']} : ${item_price['price']}`) //for문 정상 동작 확인
+        if((item_price['price'] <= amount) && (tmp['price'] <= item_price['price'])){   //물건보다 비싸지 않으면서 가장 물건값과 비슷한 물건을 선택
             tmp['name']=item_price['name'];
             tmp['price']=item_price['price'];
         }
