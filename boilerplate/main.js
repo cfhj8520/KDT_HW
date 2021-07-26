@@ -33,13 +33,12 @@ function getItemByAmount(data, amount){
         return null;
     }
 
-    const tmp={name:'default',price : 0};   //0으로 초기화 했기 때문에 최소금액의 물건보다 적은 금액이 입력되면 예외처리 필요
+    let tmp={name:'default',price : 0};   //0으로 초기화 했기 때문에 최소금액의 물건보다 적은 금액이 입력되면 예외처리 필요
 
     for (let item_price of data){   //상품 목록 탐색
 //        console.log(`${item_price['name']} : ${item_price['price']}`) //for문 정상 동작 확인
         if((item_price['price'] <= amount) && (tmp['price'] <= item_price['price'])){   //물건보다 비싸지 않으면서 가장 물건값과 비슷한 물건을 선택
-            tmp['name']=item_price['name'];
-            tmp['price']=item_price['price'];
+            tmp=item_price;
         }
     }
 
