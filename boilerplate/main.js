@@ -29,5 +29,19 @@ alert(msg);
 // 아래에 getItemByAmount 함수를 작성하세요.
 
 function getItemByAmount(data, amount){
+    if(isNaN(amount)||amount<500){
+        return null;
+    }
 
+    const tmp={name:'default',price : 0};
+
+    for (let item_price of data){
+//        console.log(`${item_price['name']} : ${item_price['price']}`)
+        if((item_price['price'] <= amount) && (tmp['price'] <= item_price['price'])){
+            tmp['name']=item_price['name'];
+            tmp['price']=item_price['price'];
+        }
+    }
+
+    return tmp;
 }
