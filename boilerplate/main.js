@@ -27,3 +27,7 @@ const msg = item ?
 alert(msg);
 
 // 아래에 getItemByAmount 함수를 작성하세요.
+
+function getItemByAmount(data, amount){
+
+}
