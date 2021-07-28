@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid lightgray;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+.container-left {
+  float: left;
+  margin: 10px 30px;
+}
+.container-right {
+  float: right;
+  margin: 10px 30px;
+}
+.logo {
+    float: left;
+}
+.logo img{
+    display: block;
+}
+.menu {
+    float: left;
+}
+.menu-item{
+    float: left;
+    padding: 8px 10px;
+    margin-right: 10px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
