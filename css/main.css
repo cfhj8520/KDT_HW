@@ -8,7 +8,7 @@ body {
     border-bottom: 1px solid lightgray;
 }
 .container {
-  width: 1200px;
+  width: 100%;
   margin: auto;
   overflow: hidden;
 }
@@ -42,4 +42,9 @@ body {
 a{
     color: black;
     text-decoration:none;
+}
+.sign_up{
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 6px!important;
 }
