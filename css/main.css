@@ -39,3 +39,7 @@ body {
     display: block;
     clear: both;
 }
+a{
+    color: black;
+    text-decoration:none;
+}
