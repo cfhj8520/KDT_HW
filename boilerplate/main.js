@@ -29,7 +29,14 @@ alert(msg);
 // 아래에 getItemByAmount 함수를 작성하세요.
 
 function getItemByAmount(data, amount){
-    if(isNaN(amount)||amount<500){      //유효한 숫자가 아니거나 500보다 작으면 null을 리턴
+    let min=999999; //최소값 초기화
+
+    for(let item_price of data){
+        if(min>item_price.price)        //물건의 최소값보다 작은 값을 예외처리하기위해 최소값 탐색
+            min=item_price.price;
+    }
+
+    if(isNaN(amount) || amount < min){      //유효한 숫자가 아니거나 최소값보다 작으면 null을 리턴
         return null;
     }
 
