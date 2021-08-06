@@ -29,12 +29,16 @@ alert(msg);
 // 아래에 getItemByAmount 함수를 작성하세요.
 
 function getItemByAmount(data, amount){
-    let min=999999; //최소값 초기화
+    let price_arr = [];
 
-    for(let item_price of data){
-        if(min>item_price.price)        //물건의 최소값보다 작은 값을 예외처리하기위해 최소값 탐색
-            min=item_price.price;
+    for(let item_price of data){        //data에 있는 상품의 가격을 price_arr에 담는다
+        price_arr.push(item_price.price);
     }
+
+    let min = Math.min.apply(null,price_arr);       //price_arr 중에서 최소값을 찾는다.
+
+//    console.log(price_arr);       //price_arr 정상 출력 확인
+//    console.log(min);
 
     if(isNaN(amount) || amount < min){      //유효한 숫자가 아니거나 최소값보다 작으면 null을 리턴
         return null;
