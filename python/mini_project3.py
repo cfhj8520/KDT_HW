@@ -45,7 +45,8 @@ import re
 #### gmail 발송 기능에 필요한 계정 정보를 아래 코드에 입력하세요.
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 465
-SMTP_USER = 'fasthyun8520@gmail.com'
+print('이메일을 입력하세요 : ')
+SMTP_USER = input()
 print('비밀번호를 입력하세요 : ')
 SMTP_PASSWORD = input()
 
@@ -90,14 +91,22 @@ from openpyxl import load_workbook
 wb = load_workbook('email list_fastcampus news.xlsx')   #이메일이 저장되어있는 엑셀 파일 열기
 data = wb.active
 
-send_list = []                          #이메일 리스트 생성
-send_list.append(data['C3'].value)      #이메일이 저장되어있는 위치의 값 가져와 리스트에 추가
-send_list.append(data['C4'].value)
+send_mail_list = {}                          #이메일 리스트 생성
+send_mail_list[data['C3'].value]= data['B3'].value      #이메일이 저장되어있는 위치의 값 가져와 리스트에 추가
+send_mail_list[data['C4'].value]= data['B4'].value
 
-# print(send_list)                      #리스트 정상 저장 확인
+# print(send_mail_list)                     #리스트 정상 저장 확인
+
 
 #### 엑셀 파일의 정보를 읽어올 수 있는 모듈을 import하세요.
 
 
 #### email_list.xlsx 파일을 읽어와 해당 사람들에게 수집한 뉴스 정보 엑셀 파일을 send_mail 함수를 이용해 전송하세요.
-send_mail()
+
+contents= '''안녕하세요.
+
+자동화로 보내지는 메일입니다. '''
+
+
+for mail in send_mail_list.keys():
+    send_mail(send_mail_list[mail],mail,'자동화 메일입니다.',contents, 'test.xlsx')
