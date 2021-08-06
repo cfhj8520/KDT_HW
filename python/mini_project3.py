@@ -27,10 +27,14 @@
 from NaverNewsCrawler import NaverNewsCrawler
 
 ####사용자로 부터 기사 수집을 원하는 키워드를 input을 이용해 입력받아 ? 부분에 넣으세요
-crawler = NaverNewsCrawler(?)
+print('수집하길 원하는 키워드를 입력하세요 : ')
+keyword = input()
+crawler = NaverNewsCrawler(keyword)
 
 #### 수집한 데이터를 저장할 엑셀 파일명을 input을 이용해 입력받아 ? 부분에 넣으세요
-crawler.get_news(?)
+print('수집한 데이터를 저장할 엑셀 파일명을 입력하세요 (ex. 파일.xlsx ) : ')
+file_name = input()
+crawler.get_news(file_name)
 
 #### 아래코드를 실행해 이메일 발송 기능에 필요한 모듈을 임포트하세요.
 from email.mime.text import MIMEText
@@ -41,8 +45,9 @@ import re
 #### gmail 발송 기능에 필요한 계정 정보를 아래 코드에 입력하세요.
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 465
-SMTP_USER = ''
-SMTP_PASSWORD = ''
+SMTP_USER = 'fasthyun8520@gmail.com'
+print('비밀번호를 입력하세요 : ')
+SMTP_PASSWORD = input()
 
 #### 아래 코드를 실행해 메일 발송에 필요한 send_mail 함수를 만드세요.
 def send_mail(name, addr, subject, contents, attachment=None):
