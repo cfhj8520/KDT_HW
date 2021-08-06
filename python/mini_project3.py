@@ -85,7 +85,16 @@ def send_mail(name, addr, subject, contents, attachment=None):
     smtp.close()
 
 #### 프로젝트 폴더에 있는 email_list.xlsx 파일에 이메일 받을 사람들의 정보를 입력하세요.
+from openpyxl import load_workbook
 
+wb = load_workbook('email list_fastcampus news.xlsx')   #이메일이 저장되어있는 엑셀 파일 열기
+data = wb.active
+
+send_list = []                          #이메일 리스트 생성
+send_list.append(data['C3'].value)      #이메일이 저장되어있는 위치의 값 가져와 리스트에 추가
+send_list.append(data['C4'].value)
+
+# print(send_list)                      #리스트 정상 저장 확인
 
 #### 엑셀 파일의 정보를 읽어올 수 있는 모듈을 import하세요.
 
