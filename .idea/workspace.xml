@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="git : branch merge and delete">
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/01-browser-title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/01-unstyled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/03-header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/03-nav-area.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/04-footer-link.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/04-side-nav-link.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/04-top-nav-link.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/05-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/06-form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/readme-assets/website.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/images/image-lg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/images/image-md.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/images/image-sm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : import mini_project4">
+      <change beforePath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628240948433</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat : import mini_project4">
+      <created>1628583916890</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1628583916890</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,6 +294,7 @@
     <MESSAGE value="feat: complete project&#10;&#10;send mail to send_mail_list" />
     <MESSAGE value="png: success image&#10;&#10;capture of send mail screen" />
     <MESSAGE value="git : branch merge and delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="git : branch merge and delete" />
+    <MESSAGE value="feat : import mini_project4" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : import mini_project4" />
   </component>
 </project>
