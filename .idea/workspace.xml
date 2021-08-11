@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : fix input&#10;&#10;fix input accept route">
+    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : fix input tag&#10;&#10;input tag dont need close tag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" afterDir="false" />
     </list>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628584098413</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat : fix input tag&#10;&#10;input tag dont need close tag">
+      <created>1628584429318</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1628584429318</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +299,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: update index.html, main.css" />
     <MESSAGE value="feat: create file for js" />
     <MESSAGE value="func: create getItemByAmount()" />
     <MESSAGE value="feat: uddate main.js" />
@@ -317,6 +323,7 @@
     <MESSAGE value="feat : fix index.html&#10;&#10;fix css route" />
     <MESSAGE value="feat : add title" />
     <MESSAGE value="feat : fix input&#10;&#10;fix input accept route" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : fix input&#10;&#10;fix input accept route" />
+    <MESSAGE value="feat : fix input tag&#10;&#10;input tag dont need close tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : fix input tag&#10;&#10;input tag dont need close tag" />
   </component>
 </project>
