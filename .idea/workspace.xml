@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : fix code&#10;&#10;change script code position">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : fix code&#10;&#10;change script code position" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,13 +289,28 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="python" />
+                        <option value="mini_project4" />
                       </list>
                     </value>
                   </entry>
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="mini_project4" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
