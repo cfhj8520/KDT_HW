@@ -170,3 +170,11 @@ textarea {
 .footer .container .contact a {
     color: #ccc;
 }
+.skip-link {
+  position: absolute;
+  top: -3em;
+  background: #fff;
+}
+.skip-link:focus {
+  top: 0;
+}
