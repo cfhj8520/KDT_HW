@@ -47,7 +47,8 @@
                         <p>
                             <label>
                                 내용<br />
-                                <input name="content" cols="55" rows="5"/>
+                                <textarea name="content" cols="55" rows="5">
+                                </textarea>
                             </label>
                         </p>
                         <p>
@@ -64,7 +65,7 @@
                         <fieldset>
                             <legend>기분(단일선택)</legend>
                             <input
-                                type="checkbox"
+                                type="radio"
                                 name="feeling"
                                 value="Happy"
                                 id="feeling:Happy"
@@ -72,14 +73,14 @@
                             />
                             <label for="feeling:Happy">행복함</label><br />
                             <input
-                                type="checkbox"
+                                type="radio"
                                 name="feeling"
                                 value="Bad"
                                 id="feeling:Bad"
                             />
                             <label for="feeling:Bad">나쁨</label><br />
                             <input
-                                type="checkbox"
+                                type="radio"
                                 name="feeling"
                                 value="Sad"
                                 id="feeling:Sad"
@@ -123,7 +124,7 @@
                         </fieldset>
                         <div class="buttons">
                             <button type="submit">글쓰기</button>
-                            <button type="submit">초기화</button>
+                            <button type="reset">초기화</button>
                         </div>
                     </form>
                 </div>
