@@ -15,12 +15,12 @@ body {
     background-color: #e9ebf1;
 }
 
-header {
+.header {
     background-color: #254e86;
     color: white;
 }
 
-header .container {
+.header .container {
     width: 800px;
     padding: 16px 24px;
     margin: 0 auto;
@@ -29,60 +29,60 @@ header .container {
     align-items: center;
 }
 
-header .container .logo-title {
+.header .container .logo-title {
     margin: 0;
     font-size: 24px;
 }
 
-header .container .menu {
+.header .container .menu {
     margin: 0;
     padding: 0;
 }
 
-header .container .menu .menu-item {
+.header .container .menu .menu-item {
     display: inline;
     margin-left: 16px;
 }
 
-header .container .menu .menu-item a {
+.header .container .menu .menu-item a {
     color: inherit;
     text-decoration: none;
 }
 
-main {
+.content {
     position: relative;
     width: 800px;
     margin: 0 auto;
     padding: 24px 0 80px 0;
 }
 
-main .write .container {
+.content .write .container {
     background-color: #fff;
     padding: 16px;
     border-radius: 2px;
 }
 
-main .write .container label > br + * {
+.content .write .container label > br + * {
     margin-top: 16px;
 }
 
-main .write .container fieldset {
+.content .write .container fieldset {
     margin-bottom: 16px;
     border: solid 1px #ccc;
 }
 
-main .write .container fieldset label {
+.content .write .container fieldset label {
     line-height: 1.6;
 }
 
-main .write .container .separator {
+.content .write .container .separator {
     margin: 24px 0;
     border: none;
     background-color: #ccc;
     height: 1px;
 }
 
-main .write .container input,
+.content .write .container input,
 textarea {
     border: solid 1px #ccc;
     border-radius: 2px;
@@ -90,14 +90,14 @@ textarea {
     font-size: 14px;
 }
 
-main .write .container input[name="subject"] {
+.content .write .container input[name="subject"] {
     width: 400px;
 }
 
-main .write .container .buttons {
+.content .write .container .buttons {
     text-align: right;
 }
-main .write .container .buttons button {
+.content .write .container .buttons button {
     font-size: 14px;
     border: none;
     background-color: #eee;
@@ -105,38 +105,38 @@ main .write .container .buttons button {
     border-radius: 2px;
 }
 
-main .timeline .item {
+.content .timeline .item {
     background-color: #fff;
     padding: 16px;
     border-radius: 2px;
 }
 
-main .timeline .item:not(:last-child) {
+.content .timeline .item:not(:last-child) {
     margin-bottom: 16px;
 }
 
-main .timeline .item .meta {
+.content .timeline .item .meta {
     text-align: right;
     color: #333;
     font-size: 14px;
 }
 
-main .timeline .item .separator {
+.content .timeline .item .separator {
     margin: 8px 0 24px 0;
     border: none;
     background-color: #ccc;
     height: 1px;
 }
 
-main .timeline .item .image {
+.content .timeline .item .image {
     text-align: center;
 }
-main .timeline .item .image img {
+.content .timeline .item .image img {
     border: solid 1px #ccc;
     padding: 8px;
     border-radius: 2px;
 }
-main .links {
+.content .links {
     position: absolute;
     top: 97px;
     width: 260px;
@@ -146,26 +146,26 @@ main .links {
     border-radius: 2px;
 }
 
-footer {
+.footer {
     background-color: #333;
     color: #fff;
 }
 
-footer .container {
+.footer .container {
     width: 800px;
     margin: 0 auto;
     padding: 36px;
 }
 
-footer .container .contact {
+.footer .container .contact {
     line-height: 2;
     font-size: 14px;
     font-style: normal;
 }
 
-footer .container .contact ul li {
+.footer .container .contact ul li {
     margin-bottom: 8px;
 }
-footer .container .contact a {
+.footer .container .contact a {
     color: #ccc;
 }
