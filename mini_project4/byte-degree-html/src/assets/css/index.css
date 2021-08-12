@@ -32,6 +32,7 @@ body {
 .header .container .logo-title {
     margin: 0;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .header .container .menu {
