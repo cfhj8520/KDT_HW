@@ -48,12 +48,20 @@ import smtplib
 import re
 
 #### gmail 발송 기능에 필요한 계정 정보를 아래 코드에 입력하세요.
+import json
+
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 465
-print('이메일을 입력하세요 : ')
-SMTP_USER = input()
-print('비밀번호를 입력하세요 : ')
-SMTP_PASSWORD = input()
+# print('이메일을 입력하세요 : ')
+# SMTP_USER = input()
+# print('비밀번호를 입력하세요 : ')
+# SMTP_PASSWORD = input()
+with open('email.json') as f:
+    config = json.load(f)
+    SMTP_USER = config['email']
+    SMTP_PASSWORD = config['password']
+
+
 
 #### 아래 코드를 실행해 메일 발송에 필요한 send_mail 함수를 만드세요.
 def send_mail(name, addr, subject, contents, attachment=None):
