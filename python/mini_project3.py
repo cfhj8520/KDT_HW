@@ -32,8 +32,13 @@ keyword = input()
 crawler = NaverNewsCrawler(keyword)
 
 #### 수집한 데이터를 저장할 엑셀 파일명을 input을 이용해 입력받아 ? 부분에 넣으세요
+import os
+
 print('수집한 데이터를 저장할 엑셀 파일명을 입력하세요 (ex. 파일.xlsx ) : ')
 file_name = input()
+if os.path.splitext(file_name)[1] != '.xlsx':
+    file_name+=".xlsx"
+
 crawler.get_news(file_name)
 
 #### 아래코드를 실행해 이메일 발송 기능에 필요한 모듈을 임포트하세요.
@@ -109,4 +114,4 @@ contents= '''안녕하세요.
 
 
 for mail in send_mail_list.keys():
-    send_mail(send_mail_list[mail],mail,'자동화 메일입니다.',contents, 'test.xlsx')
+    send_mail(send_mail_list[mail],mail,'자동화 메일입니다.',contents, file_name)
