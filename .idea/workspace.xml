@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : fix code&#10;&#10;change tag div to main, header, footer">
-=======
-    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : fix code&#10;&#10;change script code position">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/assets/js/main.js" afterDir="false" />
->>>>>>> parent of be7e6db (feat : fix code)
       <change beforePath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
