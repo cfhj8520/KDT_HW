@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : fix code&#10;&#10;change tag div to main, header, footer">
-      <change beforePath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
