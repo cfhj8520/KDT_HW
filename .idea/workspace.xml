@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="git : branch merge">
-      <change afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="ab670b84-ae33-42d1-b987-3a0ec1a784c4" name="Default Changelist" comment="feat : fix code&#10;&#10;change tag div to main, header, footer">
+      <change beforePath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project4/byte-degree-html/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,24 +20,16 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/main" />
+    <option name="BRANCH" value="python" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="python" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -57,13 +43,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -78,9 +59,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626931373129</updated>
-      <workItem from="1629175462251" duration="34000" />
-      <workItem from="1629175531286" duration="1926000" />
-      <workItem from="1629432283598" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="feat: create index.html">
       <created>1626932220132</created>
@@ -257,11 +235,57 @@
       <option name="project" value="LOCAL" />
       <updated>1628240948433</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat : import mini_project4">
+      <created>1628583916890</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1628583916890</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat : fix index.html&#10;&#10;fix css route">
+      <created>1628583996331</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1628583996331</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat : add title">
+      <created>1628584043983</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1628584043983</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat : fix input&#10;&#10;fix input accept route">
+      <created>1628584098413</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1628584098413</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat : fix input tag&#10;&#10;input tag dont need close tag">
+      <created>1628584429318</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1628584429318</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat : fix code&#10;&#10;change script code position">
+      <created>1628692795489</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1628692795489</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat : fix code&#10;&#10;change tag div to main, header, footer">
+      <created>1628751995295</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1628751995295</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -274,7 +298,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="python" />
                       </list>
                     </value>
                   </entry>
@@ -288,12 +312,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: create index.html" />
-    <MESSAGE value="feat: create main.css" />
-    <MESSAGE value="feat: update index.html" />
-    <MESSAGE value="fix: update index.html, main.css" />
-    <MESSAGE value="feat: create file for js" />
-    <MESSAGE value="func: create getItemByAmount()" />
     <MESSAGE value="feat: uddate main.js" />
     <MESSAGE value="feat: update main.js" />
     <MESSAGE value="feat: add a tag&#10;&#10;add a tag for link other page" />
@@ -312,10 +330,13 @@
     <MESSAGE value="feat: complete project&#10;&#10;send mail to send_mail_list" />
     <MESSAGE value="png: success image&#10;&#10;capture of send mail screen" />
     <MESSAGE value="git : branch merge and delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="git : branch merge and delete" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="feat : import mini_project4" />
+    <MESSAGE value="feat : fix index.html&#10;&#10;fix css route" />
+    <MESSAGE value="feat : add title" />
+    <MESSAGE value="feat : fix input&#10;&#10;fix input accept route" />
+    <MESSAGE value="feat : fix input tag&#10;&#10;input tag dont need close tag" />
+    <MESSAGE value="feat : fix code&#10;&#10;change script code position" />
+    <MESSAGE value="feat : fix code&#10;&#10;change tag div to main, header, footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : fix code&#10;&#10;change tag div to main, header, footer" />
   </component>
 </project>
